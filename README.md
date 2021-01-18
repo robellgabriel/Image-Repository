@@ -1,9 +1,23 @@
 # Image-Repository
-The application is an image repository that holds images in a secured database. Repository can be accessed whether by adding or removing images (either single or multiple) as 
+- The GUI application is an image repository that holds images in a secured database. It was programmed following Observer and MVC patterns. 
+- Repository can be accessed whether by adding or removing images (either single or multiple) as 
 well as opening images saved in the database
 
 ##Author
 -   Robell Gabriel
+
+##Language
+- Java
+
+##Tech/Framework
+- Intellij IDEA Ultimate
+
+##Libraries
+- java.util
+- java.awt
+- java.io
+- javax.swing
+- javax.imageio
 
 ##Requirements
 - To run the jar file, you will need to have Java SE installed, the link below has 
