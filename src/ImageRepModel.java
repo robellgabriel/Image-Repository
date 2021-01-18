@@ -29,10 +29,7 @@ public class ImageRepModel {
                 }
             }
         }
-
         imgCollection.addAll(files);
-
-        System.out.println(imgCollection.size());
         status = Status.ADD;
         return true;
     }
@@ -41,7 +38,6 @@ public class ImageRepModel {
         for (String name : files){
             imgCollection.removeIf(f1 -> name.equals(f1.getName()));
         }
-        System.out.println(imgCollection.size());
         status = Status.REMOVE;
     }
 

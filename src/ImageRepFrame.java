@@ -19,8 +19,8 @@ public class ImageRepFrame extends JFrame implements ImageRepView {
         ImageRepModel dlm = new ImageRepModel();
         dlm.addImageRepView(this);
 
-        JButton add = new JButton("add");
-        JButton remove = new JButton("remove");
+        JButton add = new JButton("Add Image");
+        JButton remove = new JButton("Remove Image");
         status = new JTextField();
         status.setEditable(false);
         imageList = new DefaultListModel<>();
@@ -75,6 +75,7 @@ public class ImageRepFrame extends JFrame implements ImageRepView {
                             Image.SCALE_SMOOTH);
                     ImageIcon ii = new ImageIcon(dimg);
                     label.setIcon(ii);
+                    f.setLayout(new BorderLayout());
                     f.add(label, BorderLayout.CENTER);
                     f.setSize(label.getSize());
                     f.setVisible(true);
